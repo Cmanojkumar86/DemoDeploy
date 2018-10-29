@@ -1,0 +1,105 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": ""
+    },
+    "location": {
+      "value": "East US"
+    },
+    "sitecoreAdminPassword": {
+      "value": "Mt@dmin123!"
+    },
+    "licenseXml": {
+      "value": ""
+    },
+    "repAuthenticationApiKey": {
+      "value": "A1B78E53688340BABF648678802EC11C123433"
+    },
+    "sqlServerLogin": {
+      "value": "MindDemoSitecoreDev"
+    },
+    "sqlServerPassword": {
+      "value": "lzB7=cPK86h%g$R"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_cm.scwdp.zip?sp=r&st=2018-10-17T08:55:35Z&se=2018-10-31T16:55:35Z&spr=https&sv=2017-11-09&sig=n%2B7H9vVLgHnrALhogDvdOMB5zFYk1IzYAXCQDuZoViA%3D&sr=b"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_cd.scwdp.zip?sp=r&st=2018-10-17T08:54:39Z&se=2018-10-31T16:54:39Z&spr=https&sv=2017-11-09&sig=vBRIG04bx60Q8od5hZNv9e75HwUUHtMl0hKIyVxCKOk%3D&sr=b"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_prc.scwdp.zip?sp=r&st=2018-10-17T08:58:35Z&se=2018-10-31T16:58:35Z&spr=https&sv=2017-11-09&sig=tEzH2Tg%2Fagubrjcc25n%2FRCYnM6HQgvAvYv9C0yyg32o%3D&sr=b"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_rep.scwdp.zip?sp=r&st=2018-10-17T08:59:12Z&se=2018-10-31T16:59:12Z&spr=https&sv=2017-11-09&sig=6%2BfwlyPed8tO78XJXu5CETed6a%2FC8wx91C17tCiJK4Y%3D&sr=b"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_xp1referencedata.scwdp.zip?sp=r&st=2018-10-17T09:03:40Z&se=2018-10-31T17:03:40Z&spr=https&sv=2017-11-09&sig=7LNMcBYcQIkPMhpDWFsR%2FoBWuiKeH5M%2FOPAnURd3fVo%3D&sr=b"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_xp1collection.scwdp.zip?sp=r&st=2018-10-17T08:59:47Z&se=2018-10-31T16:59:47Z&spr=https&sv=2017-11-09&sig=JUfpSZdxExqq%2Fxgra%2FzcD29i5teVy8c98l15%2BVPDAy0%3D&sr=b"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_xp1collectionsearch.scwdp.zip?sp=r&st=2018-10-17T09:00:27Z&se=2018-10-31T17:00:27Z&spr=https&sv=2017-11-09&sig=a2Ii97uF5FbnPSTybxbCAWxsKOxBMIhNXHvA9AHQ6Qo%3D&sr=b"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_xp1marketingautomation.scwdp.zip?sp=r&st=2018-10-17T09:01:32Z&se=2018-10-31T17:01:32Z&spr=https&sv=2017-11-09&sig=%2BbrLiHGG9RMhUrKGOJPjmUJuokQJlGPwfkbUWgL3YH0%3D&sr=b"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_xp1marketingautomationreporting.scwdp.zip?sp=r&st=2018-10-17T09:03:09Z&se=2018-10-31T17:03:09Z&spr=https&sv=2017-11-09&sig=RqSbLalf494dlRec8c%2BzA2PZo4xtooqHLlhgedTAqCs%3D&sr=b"
+    }, 
+	"deployExmDds": {
+	  "value": true
+	},
+	"bootloaderMsDeployPackageUrl": {
+	  "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore.Cloud.Integration.Bootload.wdp.zip?sp=r&st=2018-10-17T07:28:16Z&se=2018-10-31T15:28:16Z&spr=https&sv=2017-11-09&sig=SqpJ7C92rXDXuBJXUgHXYK1zeROOJNWU30spt55DAMQ%3D&sr=b"
+	},
+	"exmDdsMsDeployPackageUrl": {
+	  "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore 9.0.2 rev. 180604 (Cloud)_dds.scwdp.zip?sp=r&st=2018-10-17T08:57:58Z&se=2018-10-31T16:57:58Z&spr=https&sv=2017-11-09&sig=JSM2PIRONOKCwfw%2FQ1QvwNYvbCscJyeBo5Dym%2BzbhHo%3D&sr=b"
+	},
+	"exmCmMsDeployPackageUrl": {
+	  "value": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore.Patch.EXM (Cloud)_CM.zip?sp=r&st=2018-10-17T09:04:22Z&se=2018-10-31T17:04:22Z&spr=https&sv=2017-11-09&sig=OAH%2BRrE4Zh8q76u36kZE%2FgpYEBMUArcTHT%2Bdd7Zp66c%3D&sr=b"
+	},
+    "authCertificateBlob":{
+      "value": ""
+    },
+    "authCertificatePassword":{
+      "value": "Mtcert$elf@123"
+    },
+	"sitecoreSKU":{
+	  "value": "Small"
+	},
+	"modules": {
+	"value": {
+	"items": [
+	{
+	"name": "bootloader",
+	"templateLink" : "https://raw.githubusercontent.com/Sitecore/Sitecore-Azure-Quickstart-Templates/master/Sitecore%209.0.2/XP/addons/bootloader.json",
+	"parameters": {
+	"msDeployPackageUrl" : "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore.Cloud.Integration.Bootload.wdp.zip?sp=r&st=2018-10-17T07:28:16Z&se=2018-10-31T15:28:16Z&spr=https&sv=2017-11-09&sig=SqpJ7C92rXDXuBJXUgHXYK1zeROOJNWU30spt55DAMQ%3D&sr=b"
+	}
+	}
+	]
+	}
+	},
+	"modules": {
+    "value": {
+      "items": [
+        {
+        "name" : "sxa",
+        "templateLink" : "https://raw.githubusercontent.com/Sitecore/Sitecore-Azure-Quickstart-Templates/master/SXA%201.7.1/xp/azuredeploy.json",
+        "parameters" : {
+          "cdSxaMsDeployPackageUrl": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore Experience Accelerator 1.7.1 rev. 180604 for 9.0 CD.scwdp.zip?sp=r&st=2018-10-17T07:25:50Z&se=2018-10-31T15:25:50Z&spr=https&sv=2017-11-09&sig=lu0d6wDQyEBdO1NoajXFvi79OSlHEXjO7rIXh464roI%3D&sr=b",
+          "cmSxaMsDeployPackageUrl": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore Experience Accelerator 1.7.1 rev. 180604 for 9.0.scwdp.zip?sp=r&st=2018-10-17T07:27:12Z&se=2018-10-31T15:27:12Z&spr=https&sv=2017-11-09&sig=r1m%2FqiCgbpe8aeTUSp2CQ%2B8NrORJkfszdi%2BLTl5isHE%3D&sr=b",
+          "speMsDeployPackageUrl": "https://sc902azure.blob.core.windows.net/sc902-wdp/Sitecore PowerShell Extensions-4.7.2 for Sitecore 8.scwdp.zip?sp=r&st=2018-10-17T07:27:46Z&se=2018-10-31T15:27:46Z&spr=https&sv=2017-11-09&sig=T7%2FG2KkOdAMAADmY0r6hbSHXtZjpNhrKiVmKZui71uQ%3D&sr=b",
+          "solrSupportSxaMsDeployPackageUrl": "",
+		  "templateLinkAccessToken": ""
+		  }
+        }
+      ]
+    }
+	}
+  }
+}
